@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+
+\name{Ankith Mohan}
+\address{\href{mailto:ankithmo@usc.edu}{ankithmo@usc.edu} \\ \href{https://ankithmo.github.io}{ankithmo.github.io} \\ }
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Education}
+
+{\bf MS in Computer Science} \hfill {\em 2018 - 2020} \\ 
+{\it University of Southern California}, Los Angeles, CA, USA \\
+Advisors: \href{http://cacs.usc.edu/people/nakano.php}{Aiichiro Nakano} and \href{http://www.emilio.ferrara.name/}{Emilio Ferrara} \\
+Thesis: \href{http://digitallibrary.usc.edu/cdm/compoundobject/collection/p15799coll89/id/367418/rec/71}{Alleviating the Noisy Data Problem using Restricted Boltzmann Machines} \\
+
+{\bf BE in Information Science and Engineering} \hfill {\em 2012 - 2016} \\
+{\it M.S. Ramaiah Institute of Technology}, Bengaluru, India \\
+
+\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{University of Southern California}{\em 2018 - 2020}{Research Assistant}{Los Angeles, CA}
+\item[] Advisor: \href{https://szesuen.usc.edu/}{Sze-Chuan Suen}
+\item Researched on techniques to model the effectiveness of {\em Pre-exposure prophylaxis} (PrEP) on HIV/AIDS outcomes in Los Angeles county.
+\item Developed interactive web application that allows online modeling of HIV/AIDS outcomes.
+\item Designed end-to-end deep learning pipeline to predict mortality of patients at Sutter Health based on patient characteristics, vitals, labs and interventions.
+\end{rSubsection}
+
+\begin{rSubsection}{Information Sciences Institute}{\em January - May, 2019}{Directed Research Assistant}{Marina Del Rey, CA}
+\item[] Advisors: \href{https://viterbi.usc.edu/directory/faculty/Lucas/Robert}{Robert F Lucas} and \href{http://www-scf.usc.edu/~jeremyjl/}{Jeremy Liu}
+\item Modeled large-scale reactive molecular dynamics (RMD) simulations data set of $MoS_{2}$ monolayer to be able to denoise grain boundaries and defects.
+\item Used restricted Boltzmann machines (RBM) and limited Boltzmann machines (LBM) which was sampled using D-Wave adiabatic quantum annealer (AQA).
+\item Improved the performance of the LBM by finding techniques to efficiently reassign its hidden units to the qubits of AQA.
+\end{rSubsection}
+
+\begin{rSubsection}{Indian Statistical Institute Bangalore Center}{\em 2017 - 2018}{Research Assistant}{Bengaluru, India}
+\item[] Advisor: \href{https://www.isibang.ac.in/~saroj.meher/index.html}{Saroj Kumar Meher}
+\item Conducted exploratory research on techniques to model geological data using fuzzy neural network and other deep learning models.
+\end{rSubsection}
+
+\begin{rSubsection}{M.S. Ramaiah Institute of Technology}{\em 2016 - 2018}{Research Associate}{Bengaluru, India}
+\item[] Advisor: \href{http://www.msrit.edu/department/faculty-detail.html?dept=ise&ID=8}{Krishnaraj P.M.}
+\item Improved the performance of existing methods to identify influentials in a social network using several unsupervised and statistical machine learning approaches.
+\item Responsible for successful organization of the materials for a book on social network analysis focusing on the practical applications of several theoretical concepts.
+\end{rSubsection}
+
+\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Publications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preprints
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{rSection}{Preprint}
+
+
+
+%\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal articles
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Journal articles}
+
+\item \textbf{Ankith Mohan}, Aiichiro Nakano, Emilio Ferrara.
+``\href{https://arxiv.org/pdf/2011.10549.pdf}{Graph signal recovery using restricted Boltzmann machines}''. 
+%\textbf{arXiv Preprint}.
+{\it Expert Systems with Applications} (2020) (under review)
+
+\item Jeremy Liu, \textbf{Ankith Mohan}, Rajiv K. Kalia, Aiichiro Nakano, Ken-ichi Nomura, Priya Vashishta, and Ke-Thia Yao. ``\href{http://cacs.usc.edu/papers/Liu-QLBM-CMS20.pdf}{Boltzmann machine modeling of layered MoS2 synthesis on a quantum annealer}''. {\em Computational Materials Science} 173 (2020): 109429.
+
+\item Krishnaraj P. M., \textbf{Ankith Mohan}, and Srinivasa K.G. ``\href{https://www.researchgate.net/publication/318762687_Performance_of_procedures_for_identifying_influentials_in_a_social_network_prediction_of_time_and_memory_usage_as_a_function_of_network_properties}{Performance of procedures for identifying influentials in a social network: prediction of time and memory usage as a function of network properties}''. {\em Social Network Analysis and Mining} 7, no. 1 (2017): 34.
+
+\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Textbooks
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Textbook}
+
+\item Krishnaraj P.M., \textbf{Ankith Mohan}, and Srinivasa K.G. \href{https://link.springer.com/book/10.1007/978-3-319-96746-2}{\em Practical Social Network Analysis with Python}. Springer International Publishing, 2018.
+
+\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Open-source projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Open-source projects}
+
+\begin{rSubsection}{denoiseRBM}{\url{https://github.com/ankithmo/denoiseRBM}}{}{}
+\item Model-agnostic pipeline to recover graph signals by exploiting content-addressable memory property of RBM and the hidden layer representations of a deep neural network (DNN).
+\item Pipeline can be used for any dataset but is particularly effective for graph-structured datasets.
+\item Requires the deep neural network to be trained on \textit{clean} data, data which is free of noise.
+\end{rSubsection}
+
+\begin{rSubsection}{estimateMI}{\url{https://github.com/ankithmo/estimateMI}}{}{}
+\item Implementation of Ziv Goldfeld, Kristjan Greenewald, Yury Polyanskiy. (2019) ``\href{https://arxiv.org/abs/1810.11589}{Estimating Differential Entropy under Gaussian Convolutions}''.
+\item Estimating the mutual information between the input layer and each of the hidden layer representations using a {\em noisy} DNN, where additive white Gaussian noise (AWGN) is injected to each of these representations.
+\item Extending the work to estimate information flow in graph neural networks.
+\end{rSubsection}
+
+\begin{rSubsection}{Deep Pommerman}{\url{https://deep-agents.github.io/}}{}{}
+\item Solving the game of \href{https://www.pommerman.com/}{Pommerman} using deep reinforcement learning.
+\item Cooperated with five teammates to design both curriculum learning and reward engineering methods to progressively train the game agent. 
+\item Trained agents that used imitation learning or Monte Carlo tree search methods to track and eliminate opponent agents.
+\end{rSubsection}
+
+\end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Skills}
+
+\begin{rSubsection}{Languages}{}{}{}
+\item[] Python, R, Matlab, C++
+\end{rSubsection}
+
+\begin{rSubsection}{Libraries}{}{}{}
+\item[] {\it Deep learning}: PyTorch, Tensorflow
+\item[] {\it Geometric deep learning}: PyTorch geometric, Deep Graph Library, Graph Nets
+\item[] {\it Visualization}: Dash, R Shiny
+\end{rSubsection}
+
+\end{rSection}
+
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
+%Protocols \& APIs & XML, JSON, SOAP, REST \\
+%Databases & MySQL, PostgreSQL, Microsoft SQL \\
+%Tools & SVN, Vim, Emacs
+%\end{tabular}
+
+\end{document}
